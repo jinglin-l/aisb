@@ -76,15 +76,20 @@ candidates must be available to attend the program full time, in person in Londo
 
 	We recommend having a solid background in deep learning (or completing a program like MLAB or ARENA) and being comfortable with Python. These skills will help you make the most of the hands-on exercises and technical content during the bootcamp. We'll also send preparatory materials a couple of weeks before the program to help you brush up on essentials.
 
-5. can i join this program for some weeks but not others?
+5. i want to be a participant. can i join this program for some weeks but not others?
 	No, given we have limited spaces, we would be more excited to have participants who can commit to the entire four weeks of the program.
 
-6. what will an average day look like?
+6. I want to be a mentor/instructor. can i join this program for some weeks but not others?
+
+	Yes. Instructors/mentors can participate  Please take a look at our syallabus 
+
+7. what will an average day look like?
 	You'll start the day with a lecture or a deep dive into a significant vulnerability or exploit. After this, you will spend most of your time pair programming to work on the exercises, and reading relevant material. We will plan to wrap up the exercises by dinnertime, after which we'll have some additional reading material to prepare for the next day.
 	
 	In the last week, you'll work on a capstone project with a mentor - this can be implementing a security solution, replicating a significant cyberattack (in a controlled environment), or trying to break into systems (again, with explicit permission)
-7. does this program cost money?
+8. does this program cost money?
 	nope. in fact, we will also take care of accommodation, travel, food (lunch/dinner on weekdays), and visas if needed. 
+9. i want to be an instr
 
 
 # meet the team
@@ -98,8 +103,4 @@ Research engineer at Conjecture. Created AISB to bridge AI safety and security, 
 
 ### **Jinglin Li**
 
-Engineer and educator. Keeps AISB running smoothly while supporting participants and building tools for capstone research.
-website inspo
-- https://www.sfparc.com/
-- interaction.co/about
-- 
+Engineer and educator. Keeps AISB running smoothly.

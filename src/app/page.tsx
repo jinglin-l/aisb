@@ -172,7 +172,10 @@ export default function Home() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Can I join this program for some weeks but not others?</h3>
               <p className="text-lg text-gray-700 ml-8">
-                No, given we have limited spaces, we would be more excited to have participants who can commit to the entire four weeks of the program.
+                For participants: No, given we have limited spaces, we would be more excited to have participants who can commit to the entire four weeks of the program.
+              </p>
+              <p className="mt-4 text-lg text-gray-700 ml-8">
+                For mentors/instructors: Yes, you can participate for specific weeks. Please take a look at our syllabus to see which weeks align with your expertise.
               </p>
             </div>
 
@@ -192,7 +195,15 @@ export default function Home() {
                 No. In fact, we will also take care of accommodation, travel, food (lunch/dinner on weekdays), and visas if needed.
               </p>
             </div>
+
+            <div>
+            <h3 className="text-2xl font-bold mb-4">I have more questions! Where can I reach out?</h3>
+            <p className="text-lg text-gray-700 ml-8">
+              Shoot us an <a href="mailto:pranav@aisb.dev" className="text-blue-600 hover:underline">email</a>!
+            </p>
           </div>
+          </div>
+
         </section>
 
         {/* Team Section */}
