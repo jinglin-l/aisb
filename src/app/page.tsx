@@ -50,7 +50,7 @@ export default function Home() {
         {/* Program Description */}
         <section>
           <p className="text-xl md:text-2xl text-gray-700 text-center">
-            AISB is a 4-week long intensive program to bring researchers and engineers up to speed on security fundamentals for AI systems.
+            AISB is a 4-week long intensive program to bring researchers and engineers up to speed on security fundamentals for AI systems. <a href="https://airtable.com/app5CvqWYtNWVXBzh/pagLyM1S6ZevGYUcB/form" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Applications</a> are open NOW for both particpants, instructors, and mentors.
           </p>
         </section>
 
