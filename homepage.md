@@ -79,9 +79,26 @@ candidates must be available to attend the program full time, in person in Londo
 5. can i join this program for some weeks but not others?
 	No, given we have limited spaces, we would be more excited to have participants who can commit to the entire four weeks of the program.
 
-6. does this program cost money?
+6. what will an average day look like?
+	You'll start the day with a lecture or a deep dive into a significant vulnerability or exploit. After this, you will spend most of your time pair programming to work on the exercises, and reading relevant material. We will plan to wrap up the exercises by dinnertime, after which we'll have some additional reading material to prepare for the next day.
+	
+	In the last week, you'll work on a capstone project with a mentor - this can be implementing a security solution, replicating a significant cyberattack (in a controlled environment), or trying to break into systems (again, with explicit permission)
+7. does this program cost money?
 	nope. in fact, we will also take care of accommodation, travel, food (lunch/dinner on weekdays), and visas if needed. 
 
+
+# meet the team
+### **Jan Michelfeit**
+
+Security lead at Conjecture. Designs AISB’s hands-on labs and capstone projects, drawing on 10+ years securing complex systems and ML infrastructure.
+
+### **Pranav Gade**
+
+Research engineer at Conjecture. Created AISB to bridge AI safety and security, and leads curriculum design and program direction.
+
+### **Jinglin Li**
+
+Engineer and educator. Keeps AISB running smoothly while supporting participants and building tools for capstone research.
 website inspo
 - https://www.sfparc.com/
 - interaction.co/about
