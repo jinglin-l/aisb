@@ -18,31 +18,33 @@ export default function Home() {
           <span className="hidden md:inline">•</span>
           <span>Program runs August 4th-29th</span>
         </div>
-        <div className="flex gap-4 justify-center">
+      </header>
+
+      {/* Robot Image and CTA Buttons */}
+      <div className="max-w-2xl mx-auto mb-20">
+        <div className="max-w-md mx-auto mb-8">
+          <img
+            src="/robot.png"
+            alt="AI Security Robot"
+            className="w-full h-auto"
+          />
+        </div>
+        <div className="flex flex-row gap-4 justify-center max-w-md mx-auto w-full">
           <a 
             href="https://airtable.com/app5CvqWYtNWVXBzh/pagLyM1S6ZevGYUcB/form"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+            className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition flex-1 text-center"
           >
             Apply Now
           </a>
           <button 
             onClick={() => document.getElementById('learn-more')?.scrollIntoView({ behavior: 'smooth' })}
-            className="border border-gray-300 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition"
+            className="border border-gray-300 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition flex-1"
           >
             Learn More
           </button>
         </div>
-      </header>
-
-      {/* Robot Image */}
-      <div className="max-w-lg mx-auto mb-20">
-        <img
-          src="/robot.png"
-          alt="AI Security Robot"
-          className="w-full h-auto"
-        />
       </div>
 
       {/* Main Content */}
@@ -227,7 +229,7 @@ export default function Home() {
 
             <div className="flex items-center gap-6">
               <img 
-                src="/jinglin.jpg" 
+                src="/jinglin.png" 
                 alt="Jinglin Li" 
                 className="w-24 h-24 rounded-full object-cover flex-shrink-0"
               />
