@@ -253,6 +253,36 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section>
+          <hr className="border-gray-300 mb-12" />
+          <h2 className="text-3xl font-bold mb-8 text-center">Acknowledgments</h2>
+          <div className="flex flex-col items-center gap-4">
+            <p className="text-lg text-gray-700 text-center">
+              This program is supported by{" "}
+              <a 
+                href="https://www.openphilanthropy.org/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-600 hover:underline"
+              >
+                Open Philanthropy
+              </a>
+            </p>
+            <a 
+              href="https://www.openphilanthropy.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img 
+                src="/open_phil.webp" 
+                alt="Open Philanthropy Logo" 
+                className="h-12 w-auto"
+              />
+            </a>
+          </div>
+        </section>
       </main>
     </div>
   );
