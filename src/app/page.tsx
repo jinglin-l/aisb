@@ -59,15 +59,14 @@ export default function Home() {
         {/* What Will I Learn Section */}
         <section>
           <h2 className="text-4xl font-bold mb-12 text-center">What will I learn?</h2>
-          
-          <div className="space-y-12">
+          <p className="mb-4 text-lg">Note: The program content is preliminary and may change.</p>
+          <div className="space-y-12 text-lg">
             {/* Week 0 */}
             <div>
-              <h3 className="text-2xl font-bold mb-4">Week 0: Linux Security Foundations</h3>
-              <ul className="list-disc space-y-2 text-gray-700 text-lg ml-8">
-                <li>File permissions & access controls</li>
-                <li>Process isolation & privilege management</li>
-                <li>User/group management & sudo configuration</li>
+              <h3 className="text-2xl font-bold mb-4">Week 0: Prerequisites</h3>
+              <ul className="list-disc space-y-3 text-gray-700 text-lg ml-8">
+                <li><span className="font-semibold">Linux Fundamentals:</span> File permissions, process isolation, etc.</li>
+                <li><span className="font-semibold">Python:</span> Optional coding exercises</li>
               </ul>
             </div>
 
@@ -75,10 +74,10 @@ export default function Home() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Week 1: Security Fundamentals</h3>
               <ul className="list-disc space-y-3 text-gray-700 text-lg ml-8">
-                <li><span className="font-semibold">Cryptography & Cryptanalysis:</span> From Caesar ciphers to RSA attacks, padding oracle exploits, and timing attacks</li>
-                <li><span className="font-semibold">Threat Modeling:</span> Game theory approaches, attack trees, and real-world incident analysis</li>
-                <li><span className="font-semibold">Penetration Testing:</span> Full attack kill chains with Metasploit, privilege escalation, and incident response</li>
-                <li><span className="font-semibold">Network Security:</span> Protocol-layer attacks, API security, and traffic analysis</li>
+                <li><span className="font-semibold">Cryptography & Cryptanalysis:</span> Building and attacking encryption and hashing primitives</li>
+                <li><span className="font-semibold">Threat Modeling:</span> Information security fundamentals, analyzing systems for vulnerabilities, security mindset</li>
+                <li><span className="font-semibold">Penetration Testing:</span> Hands-on attacks on vulnerable systems, cyber kill chain phases, incident response</li>
+                <li><span className="font-semibold">Network Security:</span> Building and breaking network and authentication protocols</li>
               </ul>
             </div>
 
@@ -86,11 +85,10 @@ export default function Home() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Week 2: AI Infrastructure Security</h3>
               <ul className="list-disc space-y-3 text-gray-700 text-lg ml-8">
-                <li><span className="font-semibold">Advanced Networking:</span> Deep-dive into network protocols and cloud security architectures</li>
-                <li><span className="font-semibold">Containerization:</span> Build Docker from scratch, namespace isolation, container escape techniques</li>
-                <li><span className="font-semibold">Supply Chain Security:</span> Dependency confusion attacks, typosquatting, SBOM analysis</li>
-                <li><span className="font-semibold">Application Security:</span> XSS, SQL injection, buffer overflows, SSRF, and secure coding practices</li>
-                <li><span className="font-semibold">Security Operations:</span> Hands-on SecOps with misconfigured cloud environments</li>
+                <li><span className="font-semibold">Process Isolation &amp; Containerisation:</span> Building Docker from scratch, namespace isolation, container escape techniques</li>
+                <li><span className="font-semibold">Supply Chain Security:</span> Weak points in ML development and deployment environments, dependency provenance, defense best practices</li>
+                <li><span className="font-semibold">Application Security:</span> XSS, SQL injection, buffer overflows, secure coding practices</li>
+                <li><span className="font-semibold">Security Operations:</span> Hands-on building and maintaining cloud environments, monitoring, exploiting misconfigurations</li>
               </ul>
             </div>
 
@@ -98,11 +96,11 @@ export default function Home() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Week 3: AI-Specific Security</h3>
               <ul className="list-disc space-y-3 text-gray-700 text-lg ml-8">
-                <li><span className="font-semibold">Computer Vision Attacks:</span> Adversarial examples, trojan injection in image models</li>
-                <li><span className="font-semibold">LLM Vulnerabilities:</span> Prompt injection, system prompt extraction, RAG attacks, model attribution</li>
-                <li><span className="font-semibold">AI Application Security:</span> Multi-user chatbot exploitation, DoS via expensive LLM calls, watermarking</li>
-                <li><span className="font-semibold">AI Infrastructure:</span> GPU isolation attacks, RDMA vulnerabilities, ML pipeline security</li>
-                <li><span className="font-semibold">Multimodal Model Security:</span> Emerging attack vectors across vision-language models</li>
+                <li><span className="font-semibold">Model Training and Inference Basics</span> in PyTorch</li>
+                <li><span className="font-semibold">Inference-Time Attacks</span> Adversarial examples, prompt injection, exfiltration attacks</li>
+                <li><span className="font-semibold">Training-Time Attacks:</span> Data poisoning, backdoors, checkpoint manipulation</li>
+                <li><span className="font-semibold">AI Application Security:</span> Cross-user data exfiltration, MCP, RAG, injection attacks</li>
+                <li><span className="font-semibold">AI Infrastructure:</span> GPU isolation and security features, ML pipeline security</li>
               </ul>
             </div>
 
@@ -111,7 +109,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-4">Week 4: Capstone Project</h3>
               <ul className="list-disc space-y-3 text-gray-700 text-lg ml-8">
                 <li>Choose your focus: Implement novel security solutions, replicate sophisticated attacks, or conduct authorized penetration testing</li>
-                <li>Work with expert mentors on real-world security challenges</li>
+                <li>Work with expert mentors on security challenges</li>
                 <li>Present findings to cohort and industry professionals</li>
               </ul>
             </div>
