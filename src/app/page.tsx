@@ -249,6 +249,20 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
+            <div className="flex items-center gap-6">
+              <img 
+                src="/nitzan.png" 
+                alt="Nitzan Shulman" 
+                className="w-24 h-24 rounded-full object-cover flex-shrink-0"
+              />
+              <div>
+                <h3 className="text-2xl font-bold mb-4">Nitzan Shulman</h3>
+                <p className="text-lg text-gray-700">
+                  Head of Cyber Security at Heron AI Security Initiative. 6+ years in Israeli Military Intelligence specializing in cyber R&D and AI security governance.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
