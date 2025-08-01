@@ -259,7 +259,7 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Nitzan Shulman</h3>
                 <p className="text-lg text-gray-700">
-                  Head of Cyber Security at Heron AI Security Initiative. 6+ years in Israeli Military Intelligence specializing in cyber R&D and AI security governance.
+                  Head of Cyber Security at Heron AI Security Initiative. 6+ years doing security research specializing in IOT, Robotics, Malware and AI security.
                 </p>
               </div>
             </div>
